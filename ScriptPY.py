@@ -7,7 +7,7 @@ import pymysql
 print('Погнали...  0%')                # Подключение к БД
 con = pymysql.connect('localhost',     # Адрес          
                       'root',          # Логин
-                      '7895',          # Пароль
+                      '******',          # Пароль
                       'First')         # Название БД
 
 cur = con.cursor()
